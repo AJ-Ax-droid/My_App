@@ -7,6 +7,6 @@ import Navbar from './MainPage.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <Navbar />
   </StrictMode>
 )
