@@ -53,4 +53,4 @@ jobs:
           app-name: 'my-Reapp'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_288FF5D4892046E896D3D032C24379DB }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E2FC35BD9E8542A784C146B12679495F }}
