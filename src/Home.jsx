@@ -28,42 +28,24 @@ function LoginPage() {
         }
     }
 
-    return (<>
-        {renderP}
-        {/*returning main Html view for Login */}
-        <div>
-
-            <table>
-                <tbody>
-
-                    <tr>
-                        <th>
-                            <label htmlFor="UserName">Enter your User name :</label>
-                        </th>
-                        <th>
-                            <textarea name="enter text here" id="UserName" onChange={UpdateUserNAme}></textarea>
-                        </th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label htmlFor="password">Enter your Password: </label>
-
-                        </td>
-                        <td>
-                            <input type="password" name="password" id="password" onChange={UpdatePassword} />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>
-                            <button onClick={verifydata} >submit</button>
-                        </td>
-                    </tr>
-                </tbody>
-
-            </table>
-        </div>
-    </>
+    return (
+        <>
+            {/* {renderP} commented for now  */}
+            {/*returning main Html view for Login */}
+            <div>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1"  aria-describedby="emailHelp" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div >
+        </>
     )
 }
 
