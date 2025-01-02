@@ -48,7 +48,7 @@ function Navbar(params) {
 
             <nav  className="nav nav-pills flex-column flex-sm-row"> {/* Navbar look with 4 tabs */}
                 
-                        <a class="flex-sm-fill text-sm-center nav-link  " onClick={toggleActivePage}   >Home</a>
+                        <a className="flex-sm-fill text-sm-center nav-link  " onClick={toggleActivePage}   >Home</a>
                    
                         <a className="flex-sm-fill text-sm-center nav-link " onClick={toggleMyData}   >Data</a>
                     
